@@ -52,7 +52,7 @@ Astrological compatibility, often explored in relationships, is based on the bel
 
 **Is it accurate?** In my perspective, the efficacy of this tool is undeniable, which is why I was motivated to create it in the first place. Initially developed for my personal use, I realized its potential benefits for others and therefore chose to share it publicly. This decision was driven by the hope that it might prove equally useful to others as it has been to me.
 
-## How the script words
+## How the script works
 
 The program uses the [Astro-Seek](https://horoscopes.astro-seek.com/) website to fetch compatibility scores. It uses the [BeautifulSoup](https://www.crummy.com/software/BeautifulSoup/bs4/doc/) library to parse the HTML and extract the scores. It just "bruteforces" the dates and saves the date of partners you might be compatible with. It also generates charts using the [matplotlib](https://matplotlib.org/) library. [Colorama](https://pypi.org/project/colorama/) is used to color the output, it might be glitchy on some terminals. If you on Windows, you can use [Windows Terminal](https://www.microsoft.com/en-us/p/windows-terminal/9n0dx20hk701?activetab=pivot:overviewtab) for the best experience.
 
